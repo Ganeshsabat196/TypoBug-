@@ -1,0 +1,173 @@
+      /* It contains navigation bar styling */
+      .container2 {
+        display: flex;
+        background-color: rgb(243, 240, 245);
+        /* border: 2px solid blue; */
+        height: 5vh;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .container2 .box {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        /* border: 2px solid black; */
+        font-size: 16px;
+        width: auto;
+        margin: 13px;
+        padding: 2px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .container2 .box a {
+        color: rgb(8, 8, 170);
+        text-decoration: none;
+        text-align: center;
+
+    }
+
+    .container2 .box a:hover {
+        color: blueviolet;
+        text-decoration: underline;
+    }
+
+    .container2 .box:hover {
+        transform: scale(1.2);
+    }
+
+    /* It contains container of Section styling */
+    .containerSec {
+        background-image: url("images/pg1bg.png");
+        background-size: 100%;
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid black; */
+        height: 80vh;
+        width: 100%;
+    }
+
+    .containerSec .containerSecA {
+        display: flex;
+        /* border: 2px dotted dodgerblue; */
+        border: 3px dashed lightcyan;
+        background-color: ghostwhite;
+        border-radius: 8px;
+        /* border-style: double; */
+        height: 10vh;
+        width: 60%;
+        margin: auto;
+        box-shadow: inset 0px 0px 0px 0px #f9e506;
+        transition: ease-in-out 1s;
+    }
+
+    .containerSec .containerSecA:hover {
+        box-shadow: inset 920px 0px 0px 0px #f9e506;
+        transform: scale(1.05);
+    }
+
+    .containerSec .containerSecA img {
+        margin: 0px;
+        padding: 0px;
+        /* border: 2px solid black; */
+        height: 9.3vh;
+        width: 100%;
+    }
+
+    .containerSec .containerSecA .para {
+        color: green;
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        /* border: 2px solid black; */
+        text-align: justify;
+        padding: auto;
+        margin: auto auto auto 30px;
+        font-size: 50px;
+
+    }
+
+    /* It contains article styling */
+    article {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(243, 240, 245);
+        /* border: 2px solid blue; */
+        height: 30vh;
+        width: 100%;
+    }
+
+    article p {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        /* border: 2px solid rebeccapurple; */
+        font-size: 25px;
+        width: 30%;
+        height: 5vh;
+        margin: auto;
+        text-align: center;
+
+    }
+
+    .container4 {
+        display: flex;
+        /* border: 2px solid rebeccapurple; */
+        height: 10vh;
+        width: 40%;
+        margin: auto;
+
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .container4 a {
+        box-shadow: 2px 4px 10px gray;
+        background-color: white;
+        color: black;
+        /* border: 2px solid black; */
+        height: 40px;
+        width: 40px;
+        margin: 10px;
+        padding: 3px;
+        text-decoration: none;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    .container4 a:hover {
+        transform: scale(1.1);
+    }
+
+    .container4 a .fa-brands {
+        color: black;
+        line-height: 40px;
+        margin: auto auto;
+        /* border: 2px solid black; */
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    /* It contains footer styling */
+    .container5 {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        background-color: rgb(95, 71, 71);
+        display: flex;
+        /* border: 2px solid rebeccapurple; */
+        height: 2vh;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container5 a,
+    div {
+        /* background-color: black; */
+        /* border: 2px solid black; */
+        color: white;
+        font-size: 12px;
+        height: auto;
+        width: auto;
+        margin: 8px;
+        padding: 3px;
+        text-decoration: none;
+    }

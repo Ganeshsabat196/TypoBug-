@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(221, 197, 197);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+/* nav {
+    display: flex;
+} */
+ nav ul{
+    list-style-type: none;
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li{
+    display: flex;
+  padding: 0 5px;
+
+} 
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    /* border: 3px solid white; */
+}
+
+#faq{
+    color: white;
+}
+.nav{
+    float: left;
+    /* float: inline-end; */
+    margin-left: 50px;
+    display: flex;
+    
+}
+.nav1{
+    margin-left: 100px;
+    display: flex;
+    float: right;
+    text-align: end;
+
+}
+#Home{
+    color: white;
+}
+#log{
+    color: white;
+    float: right;
+}
+#Sign{
+    color: white;
+    
+}
+.section{
+    display: flex;
+}
+.section1{
+    background-color: white;
+    margin: 100px 50px;
+    float: left;
+    height: 200px;
+    width: 250px;
+}
+.section2{
+   background-image: url(1.jpg);
+    margin: 15px 50px;
+    background-color: white;
+    height: 400px;
+    width: 500px;
+}
+.section3{
+    background-color: white;
+    margin: 100px 50px;
+    float: right;
+    /* display: flex; */
+    height: 200px;
+    width: 250px;
+}
+/* .timer{
+   margin: 10px 30px; 
+   display: inline-block;
+   background-color: aquamarine;
+   border-radius: 30px;
+   color: black;
+   height: 30px;
+   font-size: larger;
+} */
+.light{
+    color: aqua;
+    
+}
+.dark{
+    color: gray;
+    
+}
+#para{
+    background-color:black;
+    background-image: url(2.jpg);
+    color: white;
+    margin: 5px 0px;
+    border: 2px solid white;
+}
+
+button{
+    display: flex;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50px;
+    background: #202020;
+    color: white;
+    width: 50px;
+    outline: none;
+    /* margin: 200px 200px; */
+
+}
+#inpfield1{
+    width: 480px;
+    border: 5px solid black;
+
+}

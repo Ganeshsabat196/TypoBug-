@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="https://cdn4.iconfinder.com/data/icons/icoflat3/512/typewriter-512.png"
+                    alt="error" width="60px">TypeRacer</li>
+            <div class="nav">
+                <li><a href="#" id="Home">Home</a></li>
+                <li><a href="#" id="faq">About</a></li>
+                <li><a href="#" id="faq">FAQ</a></li>
+                <li><a href="#" id="faq">Services</a></li>
+                <li><a href="#" id="faq">Tips</a></li>
+            </div>
+            <div class="nav1">
+                <li><a href="#" id="Sign">Signin</a></li>
+                <li><a href="#" id="log">Login</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div class="section">
+        <div class="section1">
+
+        </div>
+
+        <div class="section2">
+          
+            <p id="para" class="box"></p> 
+            <br>
+            <input type="text" id="inpfield1" placeholder="TYPEHERE">
+            <button onclick="startTime()">START</button>
+            <button onclick="stpTime()">STOP</button>
+        </div>
+
+        <div class="section3">
+            <b><i>
+                    <p>Timer:</p>
+                </i></b>
+
+            <div id="stopwatch">
+                <span id="s1">00</span>:<span id="s2">00</span>
+            </div>
+            
+            
+            <div id="speed">
+                <b><i>
+                        <p>Speed :</p>
+                    </i></b>
+                <p id="s1">00.00</p>
+                <!-- <button onclick="speed()">start</button> -->
+            </div>
+
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/28d1170533.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,194 @@
+body{
+    background-image: url("media/2.jpg");
+ background-repeat: no-repeat; 
+    background-size:  1300px; 
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    /* display: flex; */
+  padding: 0 5px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    /* border: 3px solid white; */
+}
+
+#faq{
+    color: white;
+}
+.nav{
+ display: flex;
+    float: inline-end;
+}
+#Home{
+    margin-left: 100px;
+    color: white;
+}
+#log{
+    color: white;
+}
+#Sign{
+    color: white;
+    margin-left: 650px;
+}
+
+.container{
+    margin-top: 10px;
+    list-style-type: none;
+    height: 400px;
+    width: 1000px;
+    background-color: rgb(243, 240, 240);
+    margin-left: 150px;
+    background-image: url(Download\ premium\ vector\ of\ Pink\ smudge\ background\ design\ vector\ by\ marinemynt\ about\ watercolor\ pink\,\ blush\,\ watercolour\ background\ blush\,\ watercolor\,\ and\ blush\ background\ 1201227.jpg);
+}
+#head{
+    margin: 0 150px;
+    color: black;
+    font-style: oblique;
+    background-color: white;
+    
+}
+#play{
+    color: aliceblue;
+    font-size:xx-large;
+    border: 5px solid white;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.section{
+    display: flex;
+    margin-top: 40px;
+   
+}
+
+.section1{
+    background-color: whitesmoke;
+    height: 300px;
+    width: 300px;
+    margin-left: 20px;
+    /* background-image: url(download.jpg); */
+    background-color: black;
+    color: white;
+    display: flex;
+    border: 5px solid white;
+    flex-direction: column;
+}
+.section2{
+    background-color: whitesmoke;
+    height: 300px;
+    color: white;
+    width: 600px;
+    margin-left: 150px;
+    background-image: url(media/1.jpg);
+    background-color: black;
+}
+
+#aa{
+    
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    font-size: larger;
+    background-color: purple;
+    text-decoration: none;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    top: 200px;
+    left: 150px;
+    width: 10px;
+    text-align: center;
+    color: white;
+}
+
+footer{
+   margin-top: 70px;
+   background-color: white;
+   text-decoration: none;
+   /* margin-left: 500px; */
+}
+
+#a1{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    font-size: larger;
+    background-color: purple;
+    text-decoration: none;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    float: right;
+    /* top: 200px;
+    left: 270px; */
+    width: 10px;
+    text-align: center;
+    color: white
+}
+#a2{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    font-size: larger;
+    background-color: purple;
+    text-decoration: none;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    float: right;
+    /* top: 200px;
+    left: 270px; */
+    width: 10px;
+    text-align: center;
+    color: white
+}
+#a3{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    font-size: larger;
+    background-color: purple;
+    text-decoration: none;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    float: left;
+    /* top: 200px;
+    left: 270px; */
+    width: 10px;
+    text-align: center;
+    color: white
+}
+#a4{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    font-size: larger;
+    background-color: purple;
+    text-decoration: none;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    float: left;
+    /* top: 200px;
+    left: 270px; */
+    width: 10px;
+    text-align: center;
+    color: white
+}
