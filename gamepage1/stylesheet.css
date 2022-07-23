@@ -1,14 +1,16 @@
-body{
+body {
     background-image: url("media/2.jpg");
- background-repeat: no-repeat; 
-    background-size:  1300px; 
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
-*{
+
+* {
+    /* done */
     padding: 0;
     margin: 0;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
     background-color: black;
     height: 60px;
@@ -17,11 +19,12 @@ nav ul{
     align-items: center;
 }
 
-nav ul li{
+nav ul li {
     /* display: flex; */
-  padding: 0 5px;
+    padding: 0 5px;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
     font-size: 1.3rem;
@@ -29,78 +32,89 @@ nav ul li{
     /* border: 3px solid white; */
 }
 
-#faq{
+#faq {
     color: white;
-}
-.nav{
- display: flex;
-    float: inline-end;
-}
-#Home{
-    margin-left: 100px;
-    color: white;
-}
-#log{
-    color: white;
-}
-#Sign{
-    color: white;
-    margin-left: 650px;
 }
 
-.container{
+.nav {
+    display: flex;
+    float: inline-end;
+}
+
+#Home {
+    /* margin-left: 100px; */
+    color: white;
+}
+
+#log {
+    color: white;
+}
+
+#Sign {
+    color: white;
+    /* margin-left: 650px; */
+    display: flex;
+    float: inline-end;
+}
+
+.container {
     margin-top: 10px;
     list-style-type: none;
     height: 400px;
-    width: 1000px;
+    width: 100%;
     background-color: rgb(243, 240, 240);
-    margin-left: 150px;
+    /* margin-left: 150px; */
     background-image: url(Download\ premium\ vector\ of\ Pink\ smudge\ background\ design\ vector\ by\ marinemynt\ about\ watercolor\ pink\,\ blush\,\ watercolour\ background\ blush\,\ watercolor\,\ and\ blush\ background\ 1201227.jpg);
 }
-#head{
+
+#head {
     margin: 0 150px;
     color: black;
     font-style: oblique;
     background-color: white;
-    
-}
-#play{
-    color: aliceblue;
-    font-size:xx-large;
-    border: 5px solid white;
-    margin-top: 50px;
-    margin-left: 50px;
-}
-.section{
-    display: flex;
-    margin-top: 40px;
-   
+
 }
 
-.section1{
+#play {
+    color: aliceblue;
+    font-size: xx-large;
+    border: 5px solid white;
+    /* margin-top: 50px;
+    margin-left: 50px; */
+}
+
+.section {
+    display: flex;
+    margin-top: 40px;
+
+}
+
+.section1 {
     background-color: whitesmoke;
     height: 300px;
-    width: 300px;
+    width: 50%;
     margin-left: 20px;
-    /* background-image: url(download.jpg); */
+    /* background-imagse: url(download.jpg); */
     background-color: black;
     color: white;
     display: flex;
     border: 5px solid white;
     flex-direction: column;
 }
-.section2{
+
+.section2 {
     background-color: whitesmoke;
     height: 300px;
     color: white;
-    width: 600px;
+    width: 70%;
     margin-left: 150px;
+    margin-right: 150px;
     background-image: url(media/1.jpg);
     background-color: black;
 }
 
-#aa{
-    
+#aa {
+
     font-family: 'Baloo Bhai 2', cursive;
     font-weight: bold;
     font-size: larger;
@@ -111,20 +125,21 @@ nav ul li{
     padding: 20px;
     position: relative;
     top: 200px;
+    /* float:right; */
     left: 150px;
     width: 10px;
     text-align: center;
     color: white;
 }
 
-footer{
-   margin-top: 70px;
-   background-color: white;
-   text-decoration: none;
-   /* margin-left: 500px; */
+footer {
+    margin-top: 70px;
+    background-color: white;
+    text-decoration: none;
+    /* margin-left: 500px; */
 }
 
-#a1{
+#a1 {
     font-family: 'Baloo Bhai 2', cursive;
     font-weight: bold;
     font-size: larger;
@@ -141,7 +156,8 @@ footer{
     text-align: center;
     color: white
 }
-#a2{
+
+#a2 {
     font-family: 'Baloo Bhai 2', cursive;
     font-weight: bold;
     font-size: larger;
@@ -154,11 +170,12 @@ footer{
     float: right;
     /* top: 200px;
     left: 270px; */
-    width: 10px;
+    /* width: 10px; */
     text-align: center;
     color: white
 }
-#a3{
+
+#a3 {
     font-family: 'Baloo Bhai 2', cursive;
     font-weight: bold;
     font-size: larger;
@@ -171,11 +188,12 @@ footer{
     float: left;
     /* top: 200px;
     left: 270px; */
-    width: 10px;
+    /* width: 10px; */
     text-align: center;
     color: white
 }
-#a4{
+
+#a4 {
     font-family: 'Baloo Bhai 2', cursive;
     font-weight: bold;
     font-size: larger;
@@ -188,7 +206,7 @@ footer{
     float: left;
     /* top: 200px;
     left: 270px; */
-    width: 10px;
+    /* width: 10px; */
     text-align: center;
     color: white
 }
